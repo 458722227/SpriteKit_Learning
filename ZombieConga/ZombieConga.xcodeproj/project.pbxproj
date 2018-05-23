@@ -13,6 +13,7 @@
 		47703E7020B2C55A004F82B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47703E6E20B2C55A004F82B3 /* Main.storyboard */; };
 		47703E7220B2C55A004F82B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47703E7120B2C55A004F82B3 /* Assets.xcassets */; };
 		47703E7520B2C55A004F82B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47703E7320B2C55A004F82B3 /* LaunchScreen.storyboard */; };
+		47703E7D20B546D2004F82B3 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47703E7C20B546D2004F82B3 /* CGPointExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		47703E7120B2C55A004F82B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47703E7420B2C55A004F82B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47703E7620B2C55A004F82B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47703E7C20B546D2004F82B3 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		47703E6320B2C559004F82B3 /* ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
+				47703E7C20B546D2004F82B3 /* CGPointExtension.swift */,
 				47703E6420B2C559004F82B3 /* AppDelegate.swift */,
 				47703E6A20B2C559004F82B3 /* GameScene.swift */,
 				47703E6C20B2C559004F82B3 /* GameViewController.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				47703E6B20B2C559004F82B3 /* GameScene.swift in Sources */,
 				47703E6D20B2C559004F82B3 /* GameViewController.swift in Sources */,
+				47703E7D20B546D2004F82B3 /* CGPointExtension.swift in Sources */,
 				47703E6520B2C559004F82B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
